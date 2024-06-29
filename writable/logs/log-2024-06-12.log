@@ -1,0 +1,15 @@
+CRITICAL - 2024-06-12 05:02:32 --> ErrorException: Undefined array key "id_mahasiswa"
+[Method: GET, Route: Mahasiswa/ambildata]
+in APPPATH\Views\mahasiswa\datamahasiswa.php on line 23.
+ 1 APPPATH\Views\mahasiswa\datamahasiswa.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mahasiswa"', 'D:\\dewiweb3\\ci4ajax_dewi\\app\\Views\\mahasiswa\\datamahasiswa.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\dewiweb3\\ci4ajax_dewi\\app\\Views\\mahasiswa\\datamahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mahasiswa/datamahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(22): view('Mahasiswa/datamahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->ambildata()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('D:\\dewiweb3\\ci4ajax_dewi\\public\\index.php')
